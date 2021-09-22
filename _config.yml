@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: HTML Template
-description: A professional HTML template designed to help build fast, robust, and adaptable websites.
+title: Bedrock
+description: A lightweight, feature-rich front-end framework for developing responsive, mobile first websites and web apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://h5tl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://getbedrock.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -81,7 +81,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "&copy; HTML Template - All Rights Reserved."
+footer_content: "&copy; Bedrock - All Rights Reserved."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -100,7 +100,7 @@ color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-44269416-15
+ga_tracking: 
 ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
